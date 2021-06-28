@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		160D0E1662A44F673A6A43B3267AA988 /* Pods-VunWeatherSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2878BDF6EDFA5223B6D1E87CAE8883B7 /* Pods-VunWeatherSDK_Tests-dummy.m */; };
+		1737A4C23660A55839DCF5BC2278B338 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1E6A98923A8CDED7B2C1F224A9AC1EB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3F60542540959B56959B62AD7FC55F58 /* Pods-VunWeatherSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3CEC15D37CA9E1B88876A261344D925 /* Pods-VunWeatherSDK_Example-dummy.m */; };
+		5B1D1049A5ACA293F87BEE8185D606C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		77E3AD2A14B09D08153FFAB5257C658F /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E92EA0C724B620CC791D5B6A52003F /* ReplaceMe.m */; };
+		BA2C2DD72132632CD97372B53A631F11 /* VunWeatherSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE32FCE1A8D2DB48940C31C5E063902 /* VunWeatherSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB6A9E07BF5628C30A058E90DB1D6CA0 /* Pods-VunWeatherSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDCDE0CE7C57A9E21D8E010983BDDBDA /* Pods-VunWeatherSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D142C3A0554C9E092AC873FF0DA4C52C /* VunWeatherSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 967838BC9CE465C76AB31251BFF5B4C6 /* VunWeatherSDK-dummy.m */; };
+		E720C106615F99172B6ACE010A55A27A /* Pods-VunWeatherSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E04F83BC605CF00A42D6FF98026950A /* Pods-VunWeatherSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		260BA8AFDA73E1302960675955B21BA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19E02F30D90C6A48C3803F8D60566AA9;
+			remoteInfo = "Pods-VunWeatherSDK_Example";
+		};
+		3B048FACA62B232FC0789471A2B7EA0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 050D2BE5612DE634FD3273BC77CD74F0;
+			remoteInfo = VunWeatherSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0246D8E625AA13E04622C2F1F2614ED8 /* Pods_VunWeatherSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VunWeatherSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CC3A8431086527499EF18A0A0D7E7D8 /* Pods-VunWeatherSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VunWeatherSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		12BFCB1F0FEB895E47C566CFA90455C3 /* Pods-VunWeatherSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VunWeatherSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2878BDF6EDFA5223B6D1E87CAE8883B7 /* Pods-VunWeatherSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VunWeatherSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		375A397934C20D6256BD8A5A8B99CAA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3B801F1B2703FF714443B2AB3DAF1857 /* Pods-VunWeatherSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VunWeatherSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		488943E0D4BCECCE61747B62D10BC3C2 /* VunWeatherSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VunWeatherSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		5EB253749C1720FA3310347C86BB5518 /* Pods-VunWeatherSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VunWeatherSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6E04F83BC605CF00A42D6FF98026950A /* Pods-VunWeatherSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VunWeatherSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77CF04B56490DEF9AA105BADEB591EF0 /* Pods-VunWeatherSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VunWeatherSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8DE32FCE1A8D2DB48940C31C5E063902 /* VunWeatherSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VunWeatherSDK-umbrella.h"; sourceTree = "<group>"; };
+		9147448DEE6F0E0EEE4D0F45CB02D123 /* VunWeatherSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VunWeatherSDK-Info.plist"; sourceTree = "<group>"; };
+		967838BC9CE465C76AB31251BFF5B4C6 /* VunWeatherSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VunWeatherSDK-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A80E6A10B2D37A2C441131B8B907C65D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A860C3DB85FACF6905CC3DFAFA67EFAF /* Pods-VunWeatherSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VunWeatherSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A8F7BE53AFE286DCF2397BD1E2C8B767 /* VunWeatherSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VunWeatherSDK.release.xcconfig; sourceTree = "<group>"; };
+		AB11A9297A7E35905725444ECB3C79E2 /* Pods-VunWeatherSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VunWeatherSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		AB1D9AD81DF91F22BEF62024105EFC16 /* VunWeatherSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VunWeatherSDK-prefix.pch"; sourceTree = "<group>"; };
+		B1E92EA0C724B620CC791D5B6A52003F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = VunWeatherSDK/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		BAC0CB013C132D25B0F2E127DC0B7004 /* Pods-VunWeatherSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VunWeatherSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BC489BB153E3ACD1F167EDB35D631AD5 /* Pods-VunWeatherSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VunWeatherSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		CA14AC37620F4BF17123BC2048A765C2 /* Pods-VunWeatherSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VunWeatherSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D0794C4489457043B50BDB021D39E64E /* VunWeatherSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VunWeatherSDK.debug.xcconfig; sourceTree = "<group>"; };
+		D623B866D62C2BEF98D1A7BA0F536FD0 /* Pods-VunWeatherSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VunWeatherSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DDCDE0CE7C57A9E21D8E010983BDDBDA /* Pods-VunWeatherSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VunWeatherSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DE8A39F34BE1F9368C3DC016AE662DA5 /* Pods-VunWeatherSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VunWeatherSDK_Example.modulemap"; sourceTree = "<group>"; };
+		E2F8B3637AF40712DAE93765941BF1BC /* VunWeatherSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VunWeatherSDK.modulemap; sourceTree = "<group>"; };
+		E63A8100E7C3C747A66F74DF1EF5149C /* VunWeatherSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VunWeatherSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E645A9A5BFACB8138C752939EC05622E /* Pods-VunWeatherSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VunWeatherSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F3CEC15D37CA9E1B88876A261344D925 /* Pods-VunWeatherSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VunWeatherSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		F4D440C5ACBD3E6F2EC09263571D5D96 /* Pods_VunWeatherSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VunWeatherSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47344276D44793F1DE0B62EAB745E826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1D1049A5ACA293F87BEE8185D606C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4AFE4A4A2DCE62E9F9DCE304FD63F8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6A98923A8CDED7B2C1F224A9AC1EB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A25365267FD6D3F3EC13CA1F1031BC50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1737A4C23660A55839DCF5BC2278B338 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		125FE8A33C8396B8675CB23D4A622A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0246D8E625AA13E04622C2F1F2614ED8 /* Pods_VunWeatherSDK_Example.framework */,
+				F4D440C5ACBD3E6F2EC09263571D5D96 /* Pods_VunWeatherSDK_Tests.framework */,
+				E63A8100E7C3C747A66F74DF1EF5149C /* VunWeatherSDK.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39E0E83B868EDD1CC049B48BB7060C7A /* Pods-VunWeatherSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				AB11A9297A7E35905725444ECB3C79E2 /* Pods-VunWeatherSDK_Tests.modulemap */,
+				3B801F1B2703FF714443B2AB3DAF1857 /* Pods-VunWeatherSDK_Tests-acknowledgements.markdown */,
+				CA14AC37620F4BF17123BC2048A765C2 /* Pods-VunWeatherSDK_Tests-acknowledgements.plist */,
+				2878BDF6EDFA5223B6D1E87CAE8883B7 /* Pods-VunWeatherSDK_Tests-dummy.m */,
+				0CC3A8431086527499EF18A0A0D7E7D8 /* Pods-VunWeatherSDK_Tests-Info.plist */,
+				DDCDE0CE7C57A9E21D8E010983BDDBDA /* Pods-VunWeatherSDK_Tests-umbrella.h */,
+				12BFCB1F0FEB895E47C566CFA90455C3 /* Pods-VunWeatherSDK_Tests.debug.xcconfig */,
+				BAC0CB013C132D25B0F2E127DC0B7004 /* Pods-VunWeatherSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-VunWeatherSDK_Tests";
+			path = "Target Support Files/Pods-VunWeatherSDK_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		617069B438D3A595E7E175436B65FC5D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				375A397934C20D6256BD8A5A8B99CAA2 /* LICENSE */,
+				A80E6A10B2D37A2C441131B8B907C65D /* README.md */,
+				488943E0D4BCECCE61747B62D10BC3C2 /* VunWeatherSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A0045E6B9049EBB8C2A5A9E84A372FB4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9BE564A65900301B1E41047FDB1EF5E /* VunWeatherSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A20E9B8FFDA1D70490C917747604742B /* Pods-VunWeatherSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DE8A39F34BE1F9368C3DC016AE662DA5 /* Pods-VunWeatherSDK_Example.modulemap */,
+				77CF04B56490DEF9AA105BADEB591EF0 /* Pods-VunWeatherSDK_Example-acknowledgements.markdown */,
+				D623B866D62C2BEF98D1A7BA0F536FD0 /* Pods-VunWeatherSDK_Example-acknowledgements.plist */,
+				F3CEC15D37CA9E1B88876A261344D925 /* Pods-VunWeatherSDK_Example-dummy.m */,
+				A860C3DB85FACF6905CC3DFAFA67EFAF /* Pods-VunWeatherSDK_Example-frameworks.sh */,
+				BC489BB153E3ACD1F167EDB35D631AD5 /* Pods-VunWeatherSDK_Example-Info.plist */,
+				6E04F83BC605CF00A42D6FF98026950A /* Pods-VunWeatherSDK_Example-umbrella.h */,
+				5EB253749C1720FA3310347C86BB5518 /* Pods-VunWeatherSDK_Example.debug.xcconfig */,
+				E645A9A5BFACB8138C752939EC05622E /* Pods-VunWeatherSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-VunWeatherSDK_Example";
+			path = "Target Support Files/Pods-VunWeatherSDK_Example";
+			sourceTree = "<group>";
+		};
+		AA683B919AB88E72F4A2F714C5B8A9E4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A20E9B8FFDA1D70490C917747604742B /* Pods-VunWeatherSDK_Example */,
+				39E0E83B868EDD1CC049B48BB7060C7A /* Pods-VunWeatherSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B8B6BE8D8372CCC807CFDBEF5E38D2D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F8B3637AF40712DAE93765941BF1BC /* VunWeatherSDK.modulemap */,
+				967838BC9CE465C76AB31251BFF5B4C6 /* VunWeatherSDK-dummy.m */,
+				9147448DEE6F0E0EEE4D0F45CB02D123 /* VunWeatherSDK-Info.plist */,
+				AB1D9AD81DF91F22BEF62024105EFC16 /* VunWeatherSDK-prefix.pch */,
+				8DE32FCE1A8D2DB48940C31C5E063902 /* VunWeatherSDK-umbrella.h */,
+				D0794C4489457043B50BDB021D39E64E /* VunWeatherSDK.debug.xcconfig */,
+				A8F7BE53AFE286DCF2397BD1E2C8B767 /* VunWeatherSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VunWeatherSDK";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				A0045E6B9049EBB8C2A5A9E84A372FB4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				125FE8A33C8396B8675CB23D4A622A84 /* Products */,
+				AA683B919AB88E72F4A2F714C5B8A9E4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9BE564A65900301B1E41047FDB1EF5E /* VunWeatherSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B1E92EA0C724B620CC791D5B6A52003F /* ReplaceMe.m */,
+				617069B438D3A595E7E175436B65FC5D /* Pod */,
+				B8B6BE8D8372CCC807CFDBEF5E38D2D8 /* Support Files */,
+			);
+			name = VunWeatherSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2781F6E3FBFAC6FFDF34BB8B0F3EA760 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2C2DD72132632CD97372B53A631F11 /* VunWeatherSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496E97A171FE10C8E7A2F789DF4908BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6A9E07BF5628C30A058E90DB1D6CA0 /* Pods-VunWeatherSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A08AB0F9B16C049B1563AF682745CDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E720C106615F99172B6ACE010A55A27A /* Pods-VunWeatherSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		050D2BE5612DE634FD3273BC77CD74F0 /* VunWeatherSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BD9D1CB443818B20C50D01BBE8EA13 /* Build configuration list for PBXNativeTarget "VunWeatherSDK" */;
+			buildPhases = (
+				2781F6E3FBFAC6FFDF34BB8B0F3EA760 /* Headers */,
+				E4971ADCBE348DF3CEEAC5518276CB22 /* Sources */,
+				4AFE4A4A2DCE62E9F9DCE304FD63F8D7 /* Frameworks */,
+				9248FB2B91201C58C719828ABD2556D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VunWeatherSDK;
+			productName = VunWeatherSDK;
+			productReference = E63A8100E7C3C747A66F74DF1EF5149C /* VunWeatherSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		19E02F30D90C6A48C3803F8D60566AA9 /* Pods-VunWeatherSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD21B3F73E3C557F909465F297B6CAFE /* Build configuration list for PBXNativeTarget "Pods-VunWeatherSDK_Example" */;
+			buildPhases = (
+				6A08AB0F9B16C049B1563AF682745CDB /* Headers */,
+				DBD5787C234840CF91561846DE07B19A /* Sources */,
+				A25365267FD6D3F3EC13CA1F1031BC50 /* Frameworks */,
+				63E744B964EF2DF9B338252C8D49AC85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ADBEA383E0516C2D576207266447849 /* PBXTargetDependency */,
+			);
+			name = "Pods-VunWeatherSDK_Example";
+			productName = "Pods-VunWeatherSDK_Example";
+			productReference = 0246D8E625AA13E04622C2F1F2614ED8 /* Pods_VunWeatherSDK_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		20C778881C08CC402D3F85435502FFE3 /* Pods-VunWeatherSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA77AEF9202A6AB2439AC0AF204E9AB2 /* Build configuration list for PBXNativeTarget "Pods-VunWeatherSDK_Tests" */;
+			buildPhases = (
+				496E97A171FE10C8E7A2F789DF4908BC /* Headers */,
+				F73B04937E9BDF51417C9F7F8571F2CE /* Sources */,
+				47344276D44793F1DE0B62EAB745E826 /* Frameworks */,
+				DE69A819BC66B1A8B5B9E68BD012DB6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F11F7D9A79CFE94AB487E19ECFAE1DB6 /* PBXTargetDependency */,
+			);
+			name = "Pods-VunWeatherSDK_Tests";
+			productName = "Pods-VunWeatherSDK_Tests";
+			productReference = F4D440C5ACBD3E6F2EC09263571D5D96 /* Pods_VunWeatherSDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 125FE8A33C8396B8675CB23D4A622A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19E02F30D90C6A48C3803F8D60566AA9 /* Pods-VunWeatherSDK_Example */,
+				20C778881C08CC402D3F85435502FFE3 /* Pods-VunWeatherSDK_Tests */,
+				050D2BE5612DE634FD3273BC77CD74F0 /* VunWeatherSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63E744B964EF2DF9B338252C8D49AC85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9248FB2B91201C58C719828ABD2556D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE69A819BC66B1A8B5B9E68BD012DB6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBD5787C234840CF91561846DE07B19A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F60542540959B56959B62AD7FC55F58 /* Pods-VunWeatherSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4971ADCBE348DF3CEEAC5518276CB22 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77E3AD2A14B09D08153FFAB5257C658F /* ReplaceMe.m in Sources */,
+				D142C3A0554C9E092AC873FF0DA4C52C /* VunWeatherSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F73B04937E9BDF51417C9F7F8571F2CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160D0E1662A44F673A6A43B3267AA988 /* Pods-VunWeatherSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7ADBEA383E0516C2D576207266447849 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VunWeatherSDK;
+			target = 050D2BE5612DE634FD3273BC77CD74F0 /* VunWeatherSDK */;
+			targetProxy = 3B048FACA62B232FC0789471A2B7EA0B /* PBXContainerItemProxy */;
+		};
+		F11F7D9A79CFE94AB487E19ECFAE1DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VunWeatherSDK_Example";
+			target = 19E02F30D90C6A48C3803F8D60566AA9 /* Pods-VunWeatherSDK_Example */;
+			targetProxy = 260BA8AFDA73E1302960675955B21BA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B7DFD07ECF0D89B7FE7B068C3FC4B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12BFCB1F0FEB895E47C566CFA90455C3 /* Pods-VunWeatherSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VunWeatherSDK_Tests/Pods-VunWeatherSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VunWeatherSDK_Tests/Pods-VunWeatherSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		135C5A93D68AA9A0D7CBDD4BC3341C61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0794C4489457043B50BDB021D39E64E /* VunWeatherSDK.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VunWeatherSDK/VunWeatherSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VunWeatherSDK/VunWeatherSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VunWeatherSDK/VunWeatherSDK.modulemap";
+				PRODUCT_MODULE_NAME = VunWeatherSDK;
+				PRODUCT_NAME = VunWeatherSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		80CEC94DD71BED0E45D1B22BFE8A7B81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB253749C1720FA3310347C86BB5518 /* Pods-VunWeatherSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VunWeatherSDK_Example/Pods-VunWeatherSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VunWeatherSDK_Example/Pods-VunWeatherSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A475AA89E7A166A2A0D2C3FF4F3E50EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAC0CB013C132D25B0F2E127DC0B7004 /* Pods-VunWeatherSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VunWeatherSDK_Tests/Pods-VunWeatherSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VunWeatherSDK_Tests/Pods-VunWeatherSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EEF576D3ABFCACCA7448772AA750C725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E645A9A5BFACB8138C752939EC05622E /* Pods-VunWeatherSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VunWeatherSDK_Example/Pods-VunWeatherSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VunWeatherSDK_Example/Pods-VunWeatherSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F06749C8230E88ED1E78551A99027CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8F7BE53AFE286DCF2397BD1E2C8B767 /* VunWeatherSDK.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VunWeatherSDK/VunWeatherSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VunWeatherSDK/VunWeatherSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VunWeatherSDK/VunWeatherSDK.modulemap";
+				PRODUCT_MODULE_NAME = VunWeatherSDK;
+				PRODUCT_NAME = VunWeatherSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA77AEF9202A6AB2439AC0AF204E9AB2 /* Build configuration list for PBXNativeTarget "Pods-VunWeatherSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7DFD07ECF0D89B7FE7B068C3FC4B0A /* Debug */,
+				A475AA89E7A166A2A0D2C3FF4F3E50EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2BD9D1CB443818B20C50D01BBE8EA13 /* Build configuration list for PBXNativeTarget "VunWeatherSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				135C5A93D68AA9A0D7CBDD4BC3341C61 /* Debug */,
+				F06749C8230E88ED1E78551A99027CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD21B3F73E3C557F909465F297B6CAFE /* Build configuration list for PBXNativeTarget "Pods-VunWeatherSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CEC94DD71BED0E45D1B22BFE8A7B81 /* Debug */,
+				EEF576D3ABFCACCA7448772AA750C725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

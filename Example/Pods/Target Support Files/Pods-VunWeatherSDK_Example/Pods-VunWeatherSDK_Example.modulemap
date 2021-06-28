@@ -1,0 +1,6 @@
+framework module Pods_VunWeatherSDK_Example {
+  umbrella header "Pods-VunWeatherSDK_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

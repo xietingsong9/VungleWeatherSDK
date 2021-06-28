@@ -1,0 +1,16 @@
+PODS:
+  - VunWeatherSDK (0.1.0)
+
+DEPENDENCIES:
+  - VunWeatherSDK (from `../`)
+
+EXTERNAL SOURCES:
+  VunWeatherSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VunWeatherSDK: 68d1f53f5b9ad33f077db83a0f893f5f4e055462
+
+PODFILE CHECKSUM: 1b06dc3aa1d308f27d6c658aa9dba92a5553bba6
+
+COCOAPODS: 1.10.1

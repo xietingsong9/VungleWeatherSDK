@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'VunWeatherSDK_Example' do
+  pod 'VunWeatherSDK', :path => '../'
+
+  target 'VunWeatherSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
